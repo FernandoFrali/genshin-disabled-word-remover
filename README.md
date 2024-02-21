@@ -1,10 +1,18 @@
-#Genshin "DISABLED" word remover
+# Genshin "DISABLED" word remover
 
-An application that removes "DISABLED" word from any file included in current folder/subfolders
+Our application is designed to remove the "DISABLED" word from .ini files located within subfolders. Additionally, we provide a detailed list of modifications in a .txt file for your convenience. This allows you to easily track and review all changes made to your files.
 
-## Instructions:s
+**Instructions:**
 
-- Use python to run the script or run our executable.
+1. Place the program or script inside the main folder containing the subfolders with your mods. For instance, if you have a folder named "mods_genshin" with subfolders like "mods_a" and "mods_b" (`modsgenshin/mods_a` and `modsgenshin/mods_b`), place the program/script inside the "mods_genshin" folder.
+
+2. The program will scan all subfolders within the main folder (excluding the root folder) for `.ini` files that contain the word "DISABLED".
+
+3. Once the program is executed, it will remove all `.ini` files that have the "DISABLED" word from the subfolders.
+
+4. This process works seamlessly for any number of subfolders within the main folder, making it efficient and hassle-free.
+
+5. You can run the program either by executing the Python script directly or by using the provided executable file.
 
 ### Antivirus Warning:
 
